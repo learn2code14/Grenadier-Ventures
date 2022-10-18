@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="background_styles.css">
+    <script src="script.js" defer></script>
+    <title>Grenadier Ventures Team</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo">
+      <div class="primary-icon">
+        <a href="#">
+          <img src="/Users/TheDucenas/Desktop/Web Development/Ernst Ventures/HTML Ernst Ventures/Images/Grenadier V logo copy.png">
+        </a>
+      </div>
+      <div class="company-name">
+        <a href="/Users/TheDucenas/Desktop/Web Development/Ernst Ventures/HTML Ernst Ventures/index.html"><p style="padding-top: 30px;">Grenadier<br>Ventures</p></a>
+      </div>
+          </div>
+        <ul class="nav-list" id="navi-list">
+          <li class="list-item"><a href="index.html">Home</a></li>
+          <li class="list-item"><a href="about.html">About</a></li>
+          <li class="list-item"><a href="team.html">Team</a></li>
+        </ul>
+      <div class="menu" id="toggle-button">
+        <div class="menu-line"></div>
+        <div class="menu-line"></div>
+        <div class="menu-line"></div>
+      </div>
+    </nav>
+  </body>
+  <script>
+    const toggleButton = document.getElementById('toggle-button');
+    const naviList = document.getElementById('navi-list');
+
+    toggleButton.addEventListener('click', () => {
+      naviList.classList.toggle('active');
+    })
+  </script>
+  <div class="flexbox-container">
+      <div><a href="https://ampjar.com" target="_blank"><img class="flexbox-item flexbox-ampjar" src="/Users/TheDucenas/Desktop/Web Development/Ernst Ventures/HTML Ernst Ventures/Images/Ampjar logo.png" alt="Ampjar"></a></div>
+      <div><a href="https://toriihomes.com" target="_blank"><img class="flexbox-item flexbox-torii" src="/Users/TheDucenas/Desktop/Web Development/Ernst Ventures/HTML Ernst Ventures/Images/Torii logo.png" alt="ToriiHomes"></a></div>
+      <div><a href="https://thalamusgme.com" target="_blank"><img class="flexbox-item flexbox-thalamus" src="/Users/TheDucenas/Desktop/Web Development/Ernst Ventures/HTML Ernst Ventures/Images/Thalamus logo.svg" alt="ThalamusGME"></a></div>
+      <div><a href="http://cohesys.ca" target="_blank"><img class="flexbox-item flexbox-cohesys" src="/Users/TheDucenas/Desktop/Web Development/Ernst Ventures/HTML Ernst Ventures/Images/Cohesys logo.png" alt="Cohesys"></a></div>
+      <div><a href="https://tryvantagepoint.com" target="_blank"><img class="flexbox-item flexbox-vantage" src="/Users/TheDucenas/Desktop/Web Development/Ernst Ventures/HTML Ernst Ventures/Images/Vantage point logo.png" alt="VantagePoint"></a></div>
+      <div><a href="https://web3.ozone.ai/" target="_blank"><img class="flexbox-item flexbox-ozone" src="/Users/TheDucenas/Desktop/Web Development/Ernst Ventures/HTML Ernst Ventures/Images/Ozone Ai logo.png" alt="OzoneAI"></a></div>
+      <div><a href="https://akashsystems.com/" target="_blank"><img class="flexbox-item flexbox-akash" src="/Users/TheDucenas/Desktop/Web Development/Ernst Ventures/HTML Ernst Ventures/Images/Akash Systems logo.png" alt="AkashSystems"></a></div>
+      <div><a href="https://fluent-forever.com/" target="_blank"><img class="flexbox-item flexbox-fluent" src="/Users/TheDucenas/Desktop/Web Development/Ernst Ventures/HTML Ernst Ventures/Images/Fluent Forever logo.svg" alt="FluentForever"></a></div>
+      <div><a href="https://www.sugarliving.com/" target="_blank"><img class="flexbox-item flexbox-sugar" src="/Users/TheDucenas/Desktop/Web Development/Ernst Ventures/HTML Ernst Ventures/Images/Sugar logo.svg" alt="Sugar"></a></div>
+      <div><a href="https://carex.ai/" target="_blank"><img class="flexbox-item flexbox-hospital" src="/Users/TheDucenas/Desktop/Web Development/Ernst Ventures/HTML Ernst Ventures/Images/Hospital On Mobile logo.png" alt="HospitalOnMobile"></a></div>
+      <div><a href="https://llamalife.co" target="_blank"><img class="flexbox-item flexbox-llamalife" src="/Users/TheDucenas/Desktop/Web Development/Ernst Ventures/HTML Ernst Ventures/Images/Llama Life logo.png" alt="llamalife"></a></div>
+      <div><a href="https://wordcab.com" target="_blank"><img class="flexbox-item flexbox-wordcab" src="/Users/TheDucenas/Desktop/Web Development/Ernst Ventures/HTML Ernst Ventures/Images/Wordcab logo.png" alt="wordcab"</a></div>
+      </div>
+  </body>
+</html>

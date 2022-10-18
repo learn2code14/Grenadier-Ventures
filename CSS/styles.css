@@ -1,0 +1,234 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #D8D8D8;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+h2 {
+  color: #00209F;
+  font-size: 1.75em;
+}
+
+p {
+  color: #00209F;
+  font-size: 1.25em;
+}
+
+img {
+  width: 75px;
+  height: 100px;
+  align-self: stretch;
+  object-fit: contain;
+}
+
+/*Team Page and contact form*/
+.team {
+  margin-top: 25px;
+  margin-left: 100px;
+  margin-bottom: 400px;
+  width: 67%;
+  line-height: 1.5;
+}
+
+.team-pic {
+height: 31%;
+width: 31%;
+border-radius: 100%;
+float: left;
+margin-right: 30px;
+}
+
+.team-about {
+  float: right;
+  width: 65%;
+}
+
+.contact-form {
+  width: 50%;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  margin-top: 50px;
+  float: right;
+}
+
+.name-label {
+  display: block;
+  margin-top: 15px;
+}
+
+.name {
+  display: block;
+  width: 100%;
+  border-radius: 5px;
+  height: 30px;
+}
+
+.email-label {
+  display: block;
+  margin-top: 15px;
+}
+
+.email {
+  display: block;
+  width: 100%;
+  border-radius: 5px;
+  height: 30px;
+}
+
+.textarea-label {
+  display: block;
+  margin-top: 20px;
+}
+
+.textarea {
+  display: block;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.about {
+  margin-top: 25px;
+  margin-left: 100px;
+  width: 67%;
+  line-height: 1.5;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar {
+  background-color: white;
+  color: #D21034;
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+  font-size: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  width: 100%;
+  position: fixed;
+}
+
+  .nav-list {
+  list-style-type: none;
+}
+
+  .nav-list .list-item {
+  display: inline-block;
+  padding: 20px 10px;
+  }
+
+.primary-icon {
+  height: auto;
+  float: left;
+}
+
+.company-name {
+  display: inline-block;
+  padding-top: 50px;
+}
+
+.navbar a {
+  color: #D21034;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: #00209F;
+}
+
+.menu {
+  display: none;
+}
+
+@media all and (max-width: 2000px) {
+  .navbar {
+    flex-direction: column;
+    position: relative;
+
+  }
+
+  .navbar .container-icon {
+    width: 100%;
+  }
+
+  .menu {
+    display: block;
+    position: absolute;
+    right: 50px;
+    top: 40px;
+  }
+
+  .nav-list {
+  list-style-type: none;
+  width: 100%;
+  text-align: center;
+  padding-top: 20px;
+  display: none;
+}
+
+  .nav-list .list-item {
+  display: block;
+  padding: 15px 15px;
+  }
+
+  .menu-line {
+  width: 20px;
+  height: 3px;
+  background-color: #D21034;
+  margin-bottom: 4px;
+}
+
+.active {
+  display: block;
+}
+
+.primary-icon {
+  height: auto;
+}
+
+.company-name {
+  display: inline;
+  padding-top: 30px;
+}
+
+p {
+  display: inline-block;
+  font-size: 20px;
+  color: #D21034;
+}
+}
+
+.flexbox-container {
+  padding-top: 50px;
+  padding-left: 150px;
+  padding-right: 150px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: auto;
+  align-self: center;
+}
+
+.flexbox-item {
+  width: 150px;
+  margin: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.bottom-container {
+  padding-bottom: 5px;
+  text-align: center;
+  color: #00209F;
+}

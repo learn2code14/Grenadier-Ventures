@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="background_styles.css">
+    <script src="script.js" defer></script>
+    <title>Grenadier Ventures Team</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo">
+      <div class="primary-icon">
+        <a href="/Users/TheDucenas/Desktop/Web Development/Ernst Ventures/HTML Ernst Ventures/index.html">
+          <img src="/Users/TheDucenas/Desktop/Web Development/Ernst Ventures/HTML Ernst Ventures/Images/Grenadier V logo copy.png">
+        </a>
+      </div>
+      <div class="company-name">
+        <a href="/Users/TheDucenas/Desktop/Web Development/Ernst Ventures/HTML Ernst Ventures/index.html"><p style="padding-top: 30px;">Grenadier<br>Ventures</p></a>
+      </div>
+          </div>
+        <ul class="nav-list" id="navi-list">
+          <li class="list-item"><a href="index.html">Home</a></li>
+          <li class="list-item"><a href="about.html">About</a></li>
+          <li class="list-item"><a href="team.html">Team</a></li>
+        </ul>
+      <div class="menu" id="toggle-button">
+        <div class="menu-line"></div>
+        <div class="menu-line"></div>
+        <div class="menu-line"></div>
+      </div>
+    </nav>
+  </body>
+  <script>
+    const toggleButton = document.getElementById('toggle-button');
+    const naviList = document.getElementById('navi-list');
+
+    toggleButton.addEventListener('click', () => {
+      naviList.classList.toggle('active');
+    })
+  </script>
+  <div class="about">
+    <p>At Grenadier Ventures we believe startups are one of the greatest modern tools to drive innovation, create wealth, and improve societal standards. An early stage venture firm, we aim to back the startups and exceptional entrepreneurs at the forefront of innovative ideas.
+    </p>
+  </div>
