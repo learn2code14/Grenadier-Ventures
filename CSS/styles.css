@@ -40,12 +40,13 @@ height: 31%;
 width: 31%;
 border-radius: 100%;
 float: left;
-margin-right: 30px;
 }
 
 .team-about {
+  display: inline-block;
   float: right;
-  width: 65%;
+  width: 50%;
+  margin-left: 5px;
 }
 
 .contact-form {
